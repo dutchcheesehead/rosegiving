@@ -57,14 +57,7 @@ namespace CadeauThea
             BehaviorManagerProxy.post.runBehavior("thea/turnRight");
         }
 
-        private void Spin_left(object sender, RoutedEventArgs e)
-        {
-            BehaviorManagerProxy.post.runBehavior("thea/turnRight");
-        }
-        private void Spin_right(object sender, RoutedEventArgs e)
-        {
-            BehaviorManagerProxy.post.runBehavior("thea/turnLeft");
-        }
+       
         private void Ask_for_rose(object sender, RoutedEventArgs e)
         {
             BehaviorManagerProxy.post.runBehavior("thea/take_rose");
